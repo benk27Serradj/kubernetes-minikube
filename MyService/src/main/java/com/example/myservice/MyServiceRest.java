@@ -8,7 +8,7 @@ public class MyServiceRest {
 
     @GetMapping("/")
     public String sayHello(){
-        return "Hello";
+        return "Hello this is version 2 of my service";
     }
 
 }
